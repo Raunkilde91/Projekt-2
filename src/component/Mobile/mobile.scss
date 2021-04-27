@@ -1,0 +1,162 @@
+// FRONTPAGE MOBILE
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.allPictures{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 0.8fr;
+    width: 100%;
+    height: 700px;
+.first{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 20%;
+    transform: translate(+4%);
+}
+.second{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    transform: translate(+4%);
+}
+.third{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    transform: translate(+4%);
+}
+h5{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin: auto;
+    width: 210px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    transform:translate(55%);
+}
+.MobileMenu img{
+    margin-top: 50%;
+}
+}
+
+// FRONTPAGE MOBILE SLUT
+
+// 3 ANDRE MOBILSIDER START
+
+#Mobile{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    height: 700px;
+    
+}
+
+.MobileImg{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    transform: translate(+4%);
+    margin-top: 20%;
+}
+
+.Mobiletext{
+    padding: 15px;
+}
+.Mobiletext h1{
+    font-size: 20px;
+    margin-top: 2%;
+    
+    color: black;
+}
+
+.Mobiletext h3{
+    font-size: 12px;
+    margin-top: 3%;
+   
+    color: black;
+    
+}
+.BlueImgLogo img{
+    width: 20%;
+    float: right;
+    transform: translate(-5em);
+}
+
+ // 95-101 er grid til RedMobile, da længden på siden skulle have en anden height.
+
+
+#RedMobile{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 1000px;
+}
+
+.AllPictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: absolute;
+    text-align: center;
+    transform: translate(+3%);
+    margin-top: 10%;
+    gap:20px;
+}
+
+.RedImgLogo img{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    width: 20%;
+    float: right;
+    margin-top: 60%;
+    transform: translate(-1em);
+    color: rgb(202, 152, 87);
+}
+
+// SPAN FARVE TIL DE 3 FORSKELLIGE SIDER
+
+h1 .Darktext2{
+    color: rgb(50, 83, 110);
+}
+h1 .Bluetext2{
+    color: rgb(77, 127, 168);
+}
+
+h1 .Redtext2{
+    color: rgb(202, 152, 87);
+}
+
+p{
+    color: black;
+    font-weight: 500;
+}
+
+
+.menu{
+    width: 100%;
+    height: 100%;
+    transform: translate(-11%);
+    position: absolute;
+    overflow: hidden;
+}
+
+nav{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    transform: translate(-8%);
+    margin-top: 5%;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 11px;
+    
+}
+
+
+

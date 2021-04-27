@@ -1,0 +1,169 @@
+// START DESIGN DARKBLUE
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+#Darkblue{
+    display: grid;
+    grid-template-columns: 0.5fr 1.2fr 1.5fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+    justify-content: center; // Hjælper med at kunne placere indholdet i midten.
+    align-self: center;
+    width: 100%;
+
+    height: 100vh;
+}
+.Darkbluefront{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    transform: translate(+15em);
+    margin-top: 5%;
+}
+
+.text{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    transform: translate(6em);
+    margin-top: 5%;
+    
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+h3{  
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 5%;
+    font-size: 0.8em;
+}
+h5{
+    width: 100px;
+    height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    transform: translate(11em);
+    margin-top: 10em;
+}
+}
+
+.Darkbluetext{
+    color: rgb(74, 74, 133);
+}
+
+// SLUT DESIGN DARKBLUE
+
+// START DESIGN BLUE
+#Blue{
+    display: grid;
+    grid-template-columns: 0.5fr 1.2fr 1.5fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    width: 100%;
+        height: 100vh;
+}
+.Bluefront{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    transform: translate(15em);
+    margin-top: 2.6em;
+    margin-top: 19%;
+}
+
+.Bluetxt{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    transform: translate(6em);
+    margin-top: 12%;   
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 0.7em;
+}
+h3{  
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 5%;
+    font-size: 0.8em;
+}
+h5{
+    width: 100px;
+    height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    transform: translate(10em);
+    margin-top: 12em;
+}
+}
+
+.Bluetext{
+    color: rgb(139, 152, 196);
+}
+
+
+// SLUT DESIGN AF BLUE
+
+// START DESIGN AF RED
+.Red{
+    display: grid;
+    grid-template-columns: 0.5fr 1.2fr 1.5fr 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    width: 100%;
+    height: 100vh;
+}
+.RedFront{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    transform: translate(+61%);
+    margin-top: 2.6em;
+    margin-top: 19%;
+} 
+.Redtxt{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    transform: translate(6em);
+    margin-top: 12%;  
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 0.7em;
+}
+h3{  
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 5%;
+    font-size: 0.8em;
+}
+h5{
+    width: 120px;
+    height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    transform: translate(10em);
+    margin-top: 12em;
+}
+.Redtext{
+    color: #db9e69;
+}
+.AllPictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: absolute;
+    text-align: center;
+    transform: translate(+10%);
+    margin-top: 10%;
+    gap:20px;
+p{
+        color: black;
+        font-weight: 500;
+    }
+}
+// SLUT DESIGN AF RED
+}
+
+
+
+        
